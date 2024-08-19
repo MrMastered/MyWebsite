@@ -12,65 +12,53 @@
         margin-right: 20px;
       }
 
-
       #githubImage {
-
         width: 150px;
         border-radius: 75px;
         float: right;
-        margin-top: -47px;
-        
+        margin-top: -45px;
       }
-
 
       .username {
         font-weight: bold;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
       }
     </style>
   </head>
   <body>
     <h1>This is my website!</h1>
-    <img
-      id="manImage"  src="images/man.jpg"
-       alt="This image could not be displayed properly"
-    />
-    <p class="username">Mohammad aka MrMaster</p>
-    <p>I love programing!
-    </p
+    <div class="clearfix">
+      <img
+        id="manImage"
+        src="images/man.jpg"
+        alt="This image could not be displayed properly"
+      />
+      <p class="username">Mohammad aka MrMaster</p>
+      <p>
+        why did I make this website? Because I enjoy making stuff and learning
+        new stuff too!
+      </p>
+      <p>This webpage is hosted on GitHub Pages! &copy;</p>
+    </div>
+
+    <a href="https://github.com/MrMastered/MyWebsite">
+      <img
+        id="githubImage"
+        src="images/github.jpg"
+        alt="Here is the GitHub page!"
+      />
+    </a>
+
+    <h2>About me</h2>
 
     <p>
-      why did i make this website?
-      Because i enjoy making stuff and learning new stuff too!
+      I like video games! I also like programming and I am trying to be a future
+      programmer!
     </p>
-
-    <p>
-      This webpage is hosted on github pages! &copy;
-    </p>
-
   </body>
-    
 </html>
-
-<meta
-  name="description"
-  content="This is a work in progress Webpage I am working on this
-webpage alone"
-/>
-
-<body>
-  <a href="https://github.com/MrMastered/MyWebsite">
-    <img id="githubImage" src="images/github.jpg" alt="Here is the github page!">
-  </a>
-
-<h2 >About me</h2>
-
-  <p>
-
-I like video games!
-I also like programing and i am trying to be a future programer!
-
-
-  </p>
-</body>
-
-  
